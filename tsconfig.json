@@ -1,0 +1,32 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./",
+    "outDir": "./dist",
+
+    "target": "es6",
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+
+    "declaration": true,
+    "emitDeclarationOnly": true,
+
+    "sourceMap": true,
+
+    "jsx": "react",
+    "allowJs": true, //Проходится по js файлам
+
+    "strict": true, //Строгий режим
+    "module": "esnext",
+    "moduleResolution": "node"
+  },
+  "include": ["src/**/*"],
+  "exclude": [
+    "node_modules/",
+    "lib",
+    "es",
+    "**/*.test.*"
+  ]
+}

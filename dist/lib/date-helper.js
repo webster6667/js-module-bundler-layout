@@ -1,0 +1,1 @@
+!function(e,t){"object"==typeof exports&&"undefined"!=typeof module?t(exports):"function"==typeof define&&define.amd?define(["exports"],t):t((e="undefined"!=typeof globalThis?globalThis:e||self).dateHelper={})}(this,(function(e){"use strict";e.myFunc=function(e,t){return!0},Object.defineProperty(e,"__esModule",{value:!0})}));

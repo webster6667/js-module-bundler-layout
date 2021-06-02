@@ -1,3 +1,4 @@
+import { MyFunc } from './types';
 /**
  * @description
  * Func description
@@ -10,5 +11,17 @@
  * myFunc(1,'example')
  * // => true
  */
-declare const myFunc: (firstParam: number, secondParam: string) => boolean;
-export { myFunc };
+declare const myFunc: MyFunc;
+/**
+ * Group methods
+ *
+ * @example
+ * export {myFunc}
+ *
+ * Single method
+ *
+ * @example
+ * export default myFunc
+ *
+ */
+export default myFunc;

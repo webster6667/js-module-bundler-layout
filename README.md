@@ -87,6 +87,8 @@ Connect to html file ```<script src="https://cdn.jsdelivr.net/npm/MYLIBNAME/dist
 ```html
 <script>
     GLOBALMYLIBNAME.myFunc();
+    or
+    GLOBALMYLIBNAME();
 </script>
 ```
 

@@ -1,0 +1,1 @@
+export type MyFunc = (firstParam: number, secondParam: string) => boolean

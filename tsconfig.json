@@ -23,6 +23,12 @@
     "module": "esnext",
     "moduleResolution": "node"
   },
+  "ts-node" : {
+    "compilerOptions" : {
+      "target": "es6",
+      "module" : "commonjs"
+    }
+  },
   "include": ["src/**/*"],
   "exclude": [
     "node_modules/",

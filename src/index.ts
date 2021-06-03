@@ -16,6 +16,8 @@ const myFunc:MyFunc = (firstParam, secondParam) => {
     return true
 }
 
+console.log('script runner test');
+
 /**
  * Group methods
  *

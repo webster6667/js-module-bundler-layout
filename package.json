@@ -13,7 +13,7 @@
     "build:docs": "jsdoc2md --template ./README.hbs --files ./src/*.ts --configure ./jsdoc2md.json > ./README.md",
     "build:types": "tsc --project tsconfig.json",
     "build:prod": "cross-env NODE_ENV=prod rollup -c",
-    "build:dev": "cross-env NODE_ENV=dev rollup -c --watch",
+    "build:dev": "run-s build:types && cross-env NODE_ENV=dev rollup -c --watch",
     "dev:run": "ts-node src/index.ts"
   },
   "repository": {

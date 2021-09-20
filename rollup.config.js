@@ -62,7 +62,7 @@ if (isProd) {
  */
 const esmModule = {...moduleBuildParams, output: {file: `${outputDir}/index.esm.js`, format: 'esm'}},
       cjsModule = {...moduleBuildParams, output: {file: `${outputDir}/index.cjs.js`, format: 'cjs'}},
-      umdModule = {...moduleBuildParams, output: {file: `${outputDir}/lib/${camelToDash(libName)}.js`, format: 'umd', name: libName}}
+      umdModule = {...moduleBuildParams, external: [], output: {file: `${outputDir}/lib/${camelToDash(libName)}.js`, format: 'umd', name: libName}}
 
 export default [
     esmModule,
